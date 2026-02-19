@@ -26,7 +26,7 @@ A SIP dialog is uniquely identified by:
 Call-ID + From tag + To tag
 - Call-ID identifies the call attempt.
 - From tag identifies the caller side.
-- To tag (added in 200 OK) identifies the callee side.
+- To tag identifies the callee side.
 When both tags exist along with the Call-ID, the dialog is established.
 
 ## After ACK
