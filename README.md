@@ -35,12 +35,12 @@ Media transmission begins using RTP.
 SIP continues to manage signaling (e.g., BYE, re-INVITE), but voice packets flow over RTP.
 
 ## Key SIP Headers Explained
-Via: Tracks the transport path and prevents routing loops.
-From: Identifies the caller.
-To: Identifies the callee.
-Call-ID: Unique identifier for the session.
-CSeq: Maintains transaction order.
-Contact: Indicates where future requests should be sent.
+- Via: Tracks the transport path and prevents routing loops.
+- From: Identifies the caller.
+- To: Identifies the callee.
+- Call-ID: Unique identifier for the session.
+- CSeq: Maintains transaction order.
+- Contact: Indicates where future requests should be sent.
 
 
 
