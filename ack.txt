@@ -1,0 +1,7 @@
+ACK sip:bob@example.com SIP/2.0
+Via: SIP/2.0/UDP client.example.com:5060;branch=z9hG4bK776asdhds
+From: Alice <sip:alice@example.com>;tag=1928301774
+To: Bob <sip:bob@example.com>;tag=54321
+Call-ID: a84b4c76e66710
+CSeq: 314159 ACK
+Content-Length: 0
