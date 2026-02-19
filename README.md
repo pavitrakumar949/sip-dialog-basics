@@ -9,10 +9,13 @@ SIP does NOT carry voice data.
 RTP (Real-time Transport Protocol) carries the actual media.
 
 ## Basic SIP Call Flow
+
+```
 Alice                         Bob
   | -------- INVITE --------> |
   | <------- 200 OK --------- |
   | --------- ACK ----------> |
+```
 
 1. INVITE – Initiates the session.
 2. 200 OK – Accepts the session.
