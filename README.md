@@ -52,8 +52,8 @@ Alice                         Bob
   | <------- 200 OK --------- |
   | --------- ACK ----------> |
   | <======= RTP Media ======>|
-  | ----------- BYE --------> |
-  | <------- 200 OK --------- |
+  | <----------- BYE -------- |
+  | ----------- 200 OK ------>|
 ```
 
 1. 100 Trying: Provisional response confirming request receipt.
@@ -62,7 +62,3 @@ Alice                         Bob
 4. ACK: Confirms final response.
 5. RTP: Media flows.
 6. BYE: Terminates session.
-
-
-
-
