@@ -42,6 +42,27 @@ SIP continues to manage signaling (e.g., BYE, re-INVITE), but voice packets flow
 - CSeq: Maintains transaction order.
 - Contact: Indicates where future requests should be sent.
 
+## Full Call Establishment and Termination Flow
+
+```
+Alice                         Bob
+  | -------- INVITE --------> |
+  | <------ 100 Trying ------ |
+  | <------ 180 Ringing ----- |
+  | <------- 200 OK --------- |
+  | --------- ACK ----------> |
+  | <======= RTP Media ======>|
+  | ----------- BYE --------> |
+  | <------- 200 OK --------- |
+```
+
+1. 100 Trying: Provisional response confirming request receipt.
+2. 180 Ringing: Callee is being alerted.
+3. 200 OK: Final response accepting the call.
+4. ACK: Confirms final response.
+5. RTP: Media flows.
+6. BYE: Terminates session.
+
 
 
 
